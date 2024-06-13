@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+</head>
+<body>
+    <main>
+        <h1>Formulario</h1>
+        <hr>
+        <br>
+        <form>
+            <div>
+               <label for="texto">Usuario:</label>
+               <input type="text" id="texto" placeholder="email ou nome de usuario" name="Usuario" > 
+            </div>
+            <br>
+            <div>   
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha">
+            </div>
+            <br>
+            <div>   
+                <label for="email">e-mail:</label>
+                <input type="email" name="email" id="e-mail">
+            </div>
+            <br>
+            <div>   
+                <label for="data">Data:</label>
+                <input type="date" name="data" id="data">
+            </div>
+            <br>
+            <div>   
+                <label for="hora">horario:</label>
+                <input type="time" name="hora" id="hora">
+            </div>
+            <br>
+            <div>   
+                <label for="numero">cpf:</label>
+                <input type="number" name="numero" id="numero" placeholder="Somente numeros">
+            </div>
+            <br>
+            <div>   
+                <label for="arquivo">Anexar:</label>
+                <input type="file" name="arquivo" id="e-arquivo">
+            </div>
+            <br>
+            <div>   
+                <label for="escala">escala:</label>
+                <input type="range" name="escala" id="escala" max="300">
+            </div>
+            <br>
+            <div>   
+                <label for="escolha">escolha:</label>
+                <input type="radio" name="escolha" id="escolha" >
+            </div>   
+            <br>
+            <div>   
+                <label for="multipla_escolha">escolha ate 2:</label>
+                <input type="checkbox" name="multipla_escolha" id="multipla_escolha" >
+            </div>  
+            <br>
+            <div>
+                <select>
+                 <option value="" disabled selected >Selecione uma opcao</option>
+                 <option value="receita">Receita</option>
+                 <option value="despesa">Despesa</option>
+                 <option value="transferencia">Transferencia</option>
+                </select>
+            </div>
+            <textarea name="bio" id="bio"></textarea>
+            <div>   
+                <!-- <label for="escolha">escolha:</label> -->
+                <input type="submit" name="enviar" id="enviar" value="Enviar" >
+            </div>     
+
+            
+            
+            
+        </form>
+    </main>
+</body>
+</html>
