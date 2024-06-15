@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.title{
+    height: 400px;
+    width: 100vw;
+    font-size: 600;
+    background-color: #e48a8a;
+    background-image: url("https://img.freepik.com/fotos-gratis/fundo-de-galaxia-fotorrealista_23-2151064389.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.teste{
+    height: auto;
+    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+
+    color: rgb(5, 5, 5);
+}
